@@ -1,0 +1,12 @@
+C:\Users\lab_services_student\source\repos\CalculationsClass\bin\Release\net6.0\CalculationsClass.deps.json
+C:\Users\lab_services_student\source\repos\CalculationsClass\bin\Release\net6.0\CalculationsClass.dll
+C:\Users\lab_services_student\source\repos\CalculationsClass\bin\Release\net6.0\CalculationsClass.pdb
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.AssemblyInfo.cs
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.dll
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\refint\CalculationsClass.dll
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\CalculationsClass.pdb
+C:\Users\lab_services_student\source\repos\CalculationsClass\obj\Release\net6.0\ref\CalculationsClass.dll
