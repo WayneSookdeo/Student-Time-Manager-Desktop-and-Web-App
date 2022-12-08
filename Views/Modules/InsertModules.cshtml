@@ -1,0 +1,49 @@
+﻿@model CalculationsClass.Calculations
+
+@{
+    ViewData["Title"] = "InsertModules";
+}
+
+<h1>Enter Nodule Details</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-9()">
+        <form asp-action="InsertModules">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SCode" class="control-label">Code</label>
+                <input asp-for="SCode" class="form-control" />
+                <span asp-validation-for="SCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SName" class="control-label">Name</label>
+                <input asp-for="SName" class="form-control" />
+                <span asp-validation-for="SName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DHoursWeeks" class="control-label"> Class Hours In Week</label>
+                <input asp-for="DHoursWeeks" class="form-control" />
+                <span asp-validation-for="DHoursWeeks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DCredits" class="control-label">Credits</label>
+                <input asp-for="DCredits" class="form-control" />
+                <span asp-validation-for="DCredits" class="text-danger"></span>
+            
+            <div class="form-group">
+                <label asp-for="DWeeks" class="control-label">Number of Weeks left in Semester</label>
+                <input asp-for="DWeeks" class="form-control" />
+                <span asp-validation-for="DWeeks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

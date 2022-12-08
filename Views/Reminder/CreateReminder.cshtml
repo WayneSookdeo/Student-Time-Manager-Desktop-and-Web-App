@@ -1,0 +1,32 @@
+﻿@model demo5.Models.ReminderClass
+
+@{
+    ViewData["Title"] = "CreateReminder";
+}
+
+<h1>CreateReminder</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateReminder">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="modstudy" class="control-label">Module</label>
+                <input asp-for="modstudy" class="form-control" />
+                <span asp-validation-for="modstudy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="datestudy" class="control-label">DAte to be studied on</label>
+                <input asp-for="datestudy" class="form-control" />
+                <span asp-validation-for="datestudy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Reminder" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

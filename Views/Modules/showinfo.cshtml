@@ -1,0 +1,36 @@
+﻿@using CalculationsClass;
+@{
+    ViewData["Title"] = "showinfo";
+}
+
+<center>
+    <h1>Modules</h1>
+    <table class="table">
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Credits</th>
+            <th>Class Hours Everyweek</th>
+            <th>Hours you need to study</th>
+
+
+
+        </tr>
+
+        @foreach (var item in ViewData["ca"] as List<Calculations>)
+        {
+            
+                <tr>
+                 <td>@item.SCode</td>
+                <td>@item.SName</td>
+                <td>@item.DCredits</td>
+                <td>@item.DHoursWeeks</td>
+                <td>@item.DtoCompleteStudy</td>
+
+
+                </tr>
+        }
+    </table>
+></center>
+
+

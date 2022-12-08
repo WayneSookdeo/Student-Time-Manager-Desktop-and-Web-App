@@ -1,0 +1,30 @@
+﻿@model demo5.Models.RecordHoursClass
+
+@{
+    ViewData["Title"] = "Record";
+}
+
+<h1>Record</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Record">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodeStudied" class="control-label">Code studied</label>
+                <input asp-for="CodeStudied" class="form-control" />
+                <span asp-validation-for="CodeStudied" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoursStudied" class="control-label">Hours Studied</label>
+                <input asp-for="HoursStudied" class="form-control" />
+                <span asp-validation-for="HoursStudied" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Record Hours" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
